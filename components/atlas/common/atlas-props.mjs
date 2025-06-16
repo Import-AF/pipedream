@@ -42,8 +42,7 @@ export const jobProps = {
     type: "integer",
     label: "Limit",
     description: "Maximum number of jobs to retrieve",
-    default: 500,
-    optional: true,
+    default: 5000,
   },
   offset: {
     type: "integer",

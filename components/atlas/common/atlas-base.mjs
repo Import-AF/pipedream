@@ -158,7 +158,7 @@ export class AtlasBase {
    */
   async getCandidates(params = {}) {
     return this.makeRequest({
-      url: "/v3/candidates",
+      url: "/v3/hired-candidates",
       params,
     });
   }
